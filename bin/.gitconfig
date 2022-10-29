@@ -1,0 +1,7 @@
+[user]
+	name = nagakuta
+	email = nagakuta0314+github@gmail.com
+[init]
+	defaultBranch = stable
+[pull]
+	rebase = false
