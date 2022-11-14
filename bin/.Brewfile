@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+brew "dart-sdk"
 brew "direnv"
 brew "fish"
 brew "git"
