@@ -1,10 +1,11 @@
+tap "dart-lang/dart"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
-brew "dart-sdk"
 brew "direnv"
 brew "fish"
 brew "git"
+brew "dart-lang/dart/dart"
 cask "docker", args: { appdir: "~/Applications" }
 cask "figma", args: { appdir: "~/Applications" }
 cask "google-chrome", args: { appdir: "~/Applications" }
