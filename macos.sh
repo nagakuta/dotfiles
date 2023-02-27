@@ -16,6 +16,7 @@ defaults write com.apple.dock "static-only" -bool true
 defaults write com.apple.dock "autohide-delay" -float 0
 
 # Screen Capture
+mkdir -p $HOME/Pictures/Screenshots
 defaults write com.apple.screencapture "disable-shadow" -bool true
 defaults write com.apple.screencapture "location" -string $HOME/Pictures/Screenshots
 
