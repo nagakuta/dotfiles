@@ -15,6 +15,10 @@ set PUB_ROOT $FLUTTER_WORKSPACE/.pub-cache
 # FVM
 set -x FVM_HOME $FLUTTER_WORKSPACE/.fvm
 
+# Docker
+set -x DOCKER_HOME $HOME/.docker
+
 # Paths
 set PATH $HOMEBREW_ROOT/bin $PATH
 set PATH $PUB_ROOT/bin $PATH
+set PATH $DOCKER_HOME/bin $PATH
