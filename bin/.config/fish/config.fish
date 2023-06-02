@@ -10,15 +10,11 @@ set -x HOMEBREW_NO_ENV_HINTS 1
 # Dart
 set FLUTTER_WORKSPACE $HOME/Works/flutter
 set -x PUB_CACHE $FLUTTER_WORKSPACE/.pub-cache
-set PUB_ROOT $FLUTTER_WORKSPACE/.pub-cache
+set PUB_ROOT $PUB_CACHE
 
 # FVM
 set -x FVM_HOME $FLUTTER_WORKSPACE/.fvm
 
-# Docker
-set -x DOCKER_HOME $HOME/.docker
-
 # Paths
 set PATH $HOMEBREW_ROOT/bin $PATH
 set PATH $PUB_ROOT/bin $PATH
-set PATH $DOCKER_HOME/bin $PATH
