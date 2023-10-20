@@ -5,3 +5,5 @@
 	defaultBranch = stable
 [pull]
 	rebase = false
+[fetch]
+	prune = true
