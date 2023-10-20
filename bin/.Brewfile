@@ -1,7 +1,6 @@
 tap "dart-lang/dart"
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
+brew "act"
 brew "direnv"
 brew "fish"
 brew "git"
@@ -13,3 +12,6 @@ cask "google-drive", args: { appdir: "~/Applications" }
 cask "google-japanese-ime", args: { appdir: "~/Applications" }
 cask "obs", args: { appdir: "~/Applications" }
 cask "visual-studio-code", args: { appdir: "~/Applications" }
+cask "vpn-by-google-one", args: { appdir: "~/Applications" }
+vscode "aaron-bond.better-comments"
+vscode "vscode-icons-team.vscode-icons"
