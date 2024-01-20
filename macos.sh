@@ -75,12 +75,12 @@ defaults write com.apple.driver.AppleBluetoothMulthtouch.trackpad "TrackpadTwoFi
 # Siri
 defaults write com.apple.Siri "StatusMenuVisible" -bool false
 
-# Window Manager
-defaults write com.apple.WindowManager "AppWindowGroupingBehavior" -bool true
-defaults write com.apple.WindowManager "AutoHide" -bool true
-defaults write com.apple.WindowManager "GloballyEnabled" -bool true
-defaults write com.apple.WindowManager "GloballyEnabledEver" -bool true
-defaults write com.apple.WindowManager "HideDesktop" -bool true
+# # Window Manager
+# defaults write com.apple.WindowManager "AppWindowGroupingBehavior" -bool true
+# defaults write com.apple.WindowManager "AutoHide" -bool true
+# defaults write com.apple.WindowManager "GloballyEnabled" -bool true
+# defaults write com.apple.WindowManager "GloballyEnabledEver" -bool true
+# defaults write com.apple.WindowManager "HideDesktop" -bool true
 
 for app in "Dock" "Finder" "SystemUIServer"; do
   killall "${app}" &> /dev/null
