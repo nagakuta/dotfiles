@@ -1,0 +1,6 @@
+#!/bin/bash
+set -ex
+
+{{ if eq .chezmoi.os "darwin" }}
+/opt/homebrew/bin/brew bundle --file "$HOME/.Brewfile"
+{{ end }}
