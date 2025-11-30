@@ -1,5 +1,6 @@
 tap "dart-lang/dart"
 brew "chezmoi"
+brew "container"
 brew "direnv"
 brew "fish"
 brew "git"
