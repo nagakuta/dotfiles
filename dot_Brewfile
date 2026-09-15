@@ -1,14 +1,29 @@
-tap "dart-lang/dart"
+tap "dart-lang/dart", trusted: true
+# Manage your dotfiles across multiple diverse machines, securely
 brew "chezmoi"
+# Create and run Linux containers using lightweight virtual machines
 brew "container"
+# Load/unload environment variables based on $PWD
 brew "direnv"
+# User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# Distributed revision control system
 brew "git"
+# SDK
 brew "dart-lang/dart/dart"
+# Anthropic's official Claude AI desktop app
+cask "claude", args: { appdir: "~/Applications" }
+# App to build and share containerised applications and microservices
+cask "docker-desktop", args: { appdir: "~/Applications" }
+# Collaborative team software
 cask "figma", args: { appdir: "~/Applications" }
+# Web browser
 cask "google-chrome", args: { appdir: "~/Applications" }
+# Japanese input software
 cask "google-japanese-ime", args: { appdir: "~/Applications" }
+# Open-source code editor
 cask "visual-studio-code", args: { appdir: "~/Applications" }
+# Install and switch between multiple versions of Xcode
 cask "xcodes-app", args: { appdir: "~/Applications" }
 vscode "aaron-bond.better-comments"
 vscode "ms-vscode-remote.remote-containers"
