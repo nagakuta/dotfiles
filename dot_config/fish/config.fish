@@ -19,6 +19,9 @@ set PUB_ROOT $PUB_CACHE
 # FVM
 set -x FVM_CACHE_PATH $FLUTTER_WORKSPACE/.flutter_cache
 
+# Claude
+set -x CLAUDE_CONFIG_DIR $HOME/.config/claude
+
 # Paths
 set PATH $HOMEBREW_ROOT/bin $PATH
 set PATH $PUB_ROOT/bin $PATH
