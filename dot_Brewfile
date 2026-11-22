@@ -10,13 +10,11 @@ brew "fish"
 # Distributed revision control system
 brew "git"
 # SDK
-brew "dart-lang/dart/dart"
+brew "dart-lang/dart/dart", trusted: true
 # Anthropic's official Claude AI desktop app
 cask "claude", args: { appdir: "~/Applications" }
 # App to build and share containerised applications and microservices
 cask "docker-desktop", args: { appdir: "~/Applications" }
-# Collaborative team software
-cask "figma", args: { appdir: "~/Applications" }
 # Web browser
 cask "google-chrome", args: { appdir: "~/Applications" }
 # Japanese input software
